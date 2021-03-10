@@ -1,0 +1,23 @@
+.photo img {
+  height: 200px;
+  width: 200px;
+}
+.single-team {
+  background-color: crimson;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+}
+.short-info {
+  color: #fff;
+}
+.btn {
+  padding: 7px 30px;
+  border: none;
+  background-color: darkturquoise;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+  cursor: pointer;
+}

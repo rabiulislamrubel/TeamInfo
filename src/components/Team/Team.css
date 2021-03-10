@@ -1,0 +1,71 @@
+.team-header {
+  background-image: url('https://www.thesportsdb.com/images/media/team/banner/h3sewn1557002132.jpg');
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+}
+.logo {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+}
+.team-info-body {
+  padding: 20px 125px;
+  background-color: #031800;
+}
+.team-information {
+  background-color: #13a700;
+  padding: 25px 40px;
+  border-radius: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.team-information .right-side img {
+  width: 300px;
+  height: 200px;
+}
+.team-information .left-side h1 {
+  font-size: 3rem;
+}
+.team-information .left-side p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+.team-history {
+  color: #fff;
+}
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.inner-link span a {
+  text-decoration: none;
+}
+.inner-link span a img {
+  width: 60px;
+}
+
+@media all and (max-width: 600px) {
+  .team-info-body {
+    padding: 20px 20px;
+  }
+  .team-information {
+    justify-content: flex-start;
+  }
+  .team-information .right-side img {
+    width: 350px;
+    height: 200px;
+  }
+}
